@@ -1,0 +1,102 @@
+.back-to-top{
+	background: #990021;
+}
+.bg-color-base {
+  background: #990021 !important;
+}
+
+.bg-color-white {
+  background: #990021 !important;
+}
+
+.bg-color-heading {
+  background: #990021 !important;
+}
+
+.bg-color-subtitle {
+  background: #990021 !important;
+}
+
+.bg-color-link {
+  background: #990021 !important;
+}
+
+.bg-color-link-hover {
+  background: #990021 !important;
+}
+
+.bg-color-sky-light {
+  background: #fafafa !important;
+}
+
+/*------------------------*/
+
+.color-base {
+  color: red !important;
+}
+
+.color-white {
+  color: #fff !important;
+}
+
+.color-heading {
+  color: red !important;
+}
+
+.color-subtitle {
+  color: #990021 !important;
+}
+
+.color-link {
+  color: #990021 !important;
+}
+
+.color-link-hover {
+  color: #990021 !important;
+}
+
+.color-sky-light {
+  color: #990021 !important;
+
+}
+/*---------------------*/
+@media (min-width: 992px) {
+  .page-on-scroll .header .navbar {
+    
+    border-bottom-color: #f0f0f0;
+    transition-duration: 300ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+  }
+  .page-on-scroll .header .logo-img-main {
+    display: none;
+    transition-duration: 400ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+  }
+  .page-on-scroll .header .logo-img-active {
+    display: inline-block;
+    transition-duration: 400ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+  }
+  .page-on-scroll .header .nav-item-child {
+    color: black;
+    transition-duration: 300ms;
+    transition-property: all;
+    transition-timing-function: cubic-bezier(0.7, 1, 0.7, 1);
+    font-size: x-large;
+  }
+}
+p{
+	font-size: 20px;
+  font-weight: 400;
+  font-family: italic;, sans-serif;
+  color: #a6a7aa;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+.footer .footer-logo {
+  width: 100px;
+  height:70px;
+}
